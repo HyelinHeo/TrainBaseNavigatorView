@@ -1,0 +1,544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4568446726207428684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845164277490454353}
+  - component: {fileID: 4764431334538273217}
+  - component: {fileID: 7767756651175219027}
+  - component: {fileID: 1681117942812335974}
+  - component: {fileID: 8472865277542607374}
+  - component: {fileID: 3403348120781000133}
+  - component: {fileID: 3841497992676241690}
+  m_Layer: 0
+  m_Name: MPXTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845164277490454353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4764431334538273217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53a95847f1db6343961b55bdc53b5dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: 1
+  col1: {r: 1, g: 1, b: 1, a: 1}
+  col2: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  KnotCol: {r: 0, g: 1, b: 0, a: 1}
+  HandleCol: {r: 1, g: 0, b: 0, a: 1}
+  VecCol: {r: 0.1, g: 0.1, b: 0.2, a: 0.5}
+  KnotSize: 2
+  stepdist: 0.5
+  normalizedInterp: 1
+  drawHandles: 0
+  drawKnots: 1
+  drawspline: 1
+  drawTwist: 0
+  lockhandles: 1
+  showorigin: 1
+  usesnap: 0
+  usesnaphandles: 0
+  snap: {x: 1, y: 1, z: 1}
+  handleType: 1
+  CursorPos: 0
+  splines:
+  - length: NaN
+    closed: 0
+    knots:
+    - p: {x: 0, y: 0, z: 0}
+      invec: {x: NaN, y: NaN, z: NaN}
+      outvec: {x: NaN, y: NaN, z: NaN}
+      seglength: NaN
+      length: NaN
+      notlocked: 0
+      twist: 0
+      id: 0
+      lengths:
+      - 0
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      points:
+      - {x: 0, y: 0, z: 0}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+    - p: {x: NaN, y: NaN, z: NaN}
+      invec: {x: NaN, y: NaN, z: NaN}
+      outvec: {x: NaN, y: NaN, z: NaN}
+      seglength: NaN
+      length: NaN
+      notlocked: 0
+      twist: 0
+      id: 0
+      lengths:
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      points:
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: 0, y: 0, z: 0}
+    - p: {x: 0, y: 0, z: 0}
+      invec: {x: NaN, y: NaN, z: NaN}
+      outvec: {x: NaN, y: NaN, z: NaN}
+      seglength: NaN
+      length: NaN
+      notlocked: 0
+      twist: 0
+      id: 0
+      lengths:
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      points:
+      - {x: 0, y: 0, z: 0}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: NaN, y: NaN, z: NaN}
+      - {x: 0, y: 0, z: 0}
+    - p: {x: 0, y: 0, z: 0}
+      invec: {x: 0, y: -0.1875, z: 0.000000008195885}
+      outvec: {x: 0, y: 0.1875, z: -0.000000008195885}
+      seglength: 1
+      length: NaN
+      notlocked: 0
+      twist: 0
+      id: 0
+      lengths:
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      - NaN
+      points:
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0.0634375, z: -0.000000002772941}
+      - {x: 0, y: 0.14000002, z: -0.0000000061195946}
+      - {x: 0, y: 0.2278125, z: -0.000000009958001}
+      - {x: 0, y: 0.32500002, z: -0.0000000142062015}
+      - {x: 0, y: 0.4296875, z: -0.000000018782238}
+      - {x: 0, y: 0.54, z: -0.00000002360415}
+      - {x: 0, y: 0.65406257, z: -0.000000028589984}
+      - {x: 0, y: 0.7700001, z: -0.000000033657773}
+      - {x: 0, y: 0.8859376, z: -0.000000038725563}
+      - {x: 0, y: 1, z: -0.00000004371139}
+    - p: {x: 0, y: 1, z: -0.00000004371139}
+      invec: {x: 0, y: 0.625, z: -0.000000027319619}
+      outvec: {x: 0, y: 1.375, z: -0.00000006010316}
+      seglength: 0
+      length: 0
+      notlocked: 0
+      twist: 0
+      id: 0
+      lengths: []
+      points: []
+    animations: []
+    offset: {x: 0, y: 0, z: 0}
+    rotate: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    reverse: 0
+    outlineSpline: -1
+    outline: 0
+    constantSpeed: 0
+    subdivs: 10
+    twistmode: 0
+    splineanim:
+      Enabled: 0
+      knots: []
+  showanimations: 0
+  keytime: 0
+  updateondrag: 1
+  angleError: 0.08
+  areaError: 0.15
+  hardAngle: 88
+  packMargin: 0.0039
+  defRadius: 1
+  smoothonaddknot: 1
+  testtime: 0
+  time: 0
+  animate: 0
+  speed: 1
+  selcurve: 0
+  imported: 0
+  CursorPercent: 0
+  MaxTime: 1
+  LoopMode: 0
+  dolateupdate: 0
+  makeMesh: 1
+  meshType: 2
+  DoubleSided: 1
+  CalcTangents: 0
+  GenUV: 1
+  PhysUV: 0
+  Height: 0
+  HeightSegs: 1
+  Sides: 4
+  TubeStep: 0.1
+  Start: 0
+  End: 100
+  Rotate: 0
+  Pivot: {x: 0, y: 0, z: 0}
+  UVOffset: {x: 0, y: 0}
+  UVRotate: {x: 0, y: 0}
+  UVScale: {x: 1, y: 1}
+  UVOffset1: {x: 0, y: 0}
+  UVRotate1: {x: 0, y: 0}
+  UVScale1: {x: 1, y: 1}
+  UVOffset2: {x: 0, y: 0}
+  UVRotate3: {x: 0, y: 0}
+  UVScale3: {x: 1, y: 1}
+  autosmooth: 0
+  smoothness: 0.75
+  flipNormals: 0
+  smoothMode: 0
+  smoothOnDrag: 0
+  freezeX: 0
+  freezeY: 0
+  freezeZ: 0
+  mat1: {fileID: 2100000, guid: e528f485bc2d09d41ae46f2f0efd6c5c, type: 2}
+  mat2: {fileID: 0}
+  mat3: {fileID: 0}
+  UseHeightCurve: 0
+  heightCrv:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  heightOff: 0
+  shapemesh: {fileID: 0}
+  tsides: 8
+  crossType: 0
+  Twist: 0
+  strands: 1
+  tradius: 0.1
+  offset: 0
+  uvtilex: 1
+  uvtiley: 1
+  uvtwist: 0
+  TubeLength: 1
+  TubeStart: 0
+  SegsPerUnit: 20
+  TwistPerUnit: 0
+  strandRadius: 0
+  startAng: 0
+  rotate: 0
+  cap: 0
+  RopeUp: 1
+  scaleX:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  scaleY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  unlinkScale: 0
+  boxwidth: 0.2
+  boxheight: 0.2
+  raxis: 0
+  ribsegs: 1
+  conform: 0
+  target: {fileID: 0}
+  conformCollider: {fileID: 0}
+  offsets: []
+  last: []
+  conformAmount: 1
+  raystartoff: 0
+  raydist: 10
+  conformOffset: 0
+  conformWeight: 1
+  points: 2
+  length: 1
+  dir: 0
+  end: {fileID: 0}
+--- !u!23 &7767756651175219027
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1681117942812335974
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_Mesh: {fileID: 0}
+--- !u!114 &8472865277542607374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144643e4c6f0c5e42b6ff834235f3733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThisObject: {fileID: 3841497992676241690}
+  Edge1: {x: 0, y: 0}
+  Edge2: {x: 0, y: 0}
+  useSelect: 0
+  originScreenPoint: {x: 0, y: 0, z: 0}
+  IsSelect: 0
+--- !u!114 &3403348120781000133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &3841497992676241690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568446726207428684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8d9952a06d7b04cb658d3d5ba6d6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isNew: 0
+  SelectEffect: {fileID: 3403348120781000133}
+  RgbColor: {r: 0, g: 0, b: 0, a: 0}
+  MpxColor:
+    Red: 0
+    Green: 0
+    Blue: 0
+    Alpha: 0
+  MyCol:
+  - {fileID: 0}
+  Mytr: {fileID: 845164277490454353}
+  ID: 
+  Name: 
+  Children: []
+  MyClass:
+    ID: MpxFoundationObjectWall143776bf-dc7b-4881-a4a3-d8cfc45236b8
+    BasicName: 
+    Position:
+      X: 0
+      Y: 0
+      Z: 0
+    Rotation:
+      X: 0
+      Y: 0
+      Z: 0
+    Size:
+      X: 1
+      Y: 1
+      Z: 1
+    SourceObjectID: 
+    ObjType: 0
+    Properties: []
+    Selected: 0
+    Removed: 0
+    Type: 0
+    StartPos:
+      X: 0
+      Y: 0
+      Z: 0
+    EndPos:
+      X: 0
+      Y: 0
+      Z: 0
+    BaseColor:
+      Red: 255
+      Green: 255
+      Blue: 255
+      Alpha: 255
+    Texture:
+      FileFormat: 0
+      Bytes: 
+  shape: {fileID: 4764431334538273217}
+  StartPos: {x: 0, y: 0, z: 0}
+  EndPos: {x: 0, y: 0, z: 0}
+  Size: {x: 0, y: 0, z: 0}
+  Width: 0
+  Height: 0
+  ColBox: {fileID: 0}
+  MyMat: {fileID: 0}
